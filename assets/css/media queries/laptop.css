@@ -1,0 +1,75 @@
+/*===== LAPTOP =====*/
+@media only screen and (min-width: 1024px) {
+  .section {
+    padding-top: 0;
+  }
+
+  .services__container,
+  .portfolio__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bd-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__social-icon {
+    font-size: 2.2rem;
+  }
+
+  .qualification__container {
+    column-gap: 6rem;
+  }
+
+  .portfolio__img {
+    height: 280px;
+  }
+
+  .contact.section {
+    display: grid;
+
+    grid-template-areas:
+      "t1 t1 t1 t1 t1"
+      "t2 t2 t2 t2 t2"
+      "icon icon icon box box";
+    align-items: center;
+  }
+
+  .contact.section > .section-subtitle {
+    grid-area: t1;
+  }
+
+  .contact.section > .section-title {
+    grid-area: t2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact.section > .contact__content {
+    grid-area: icon;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 8rem;
+  }
+
+  .contact.section > .contact__form_container {
+    grid-area: box;
+  }
+
+  .section-subtitle {
+    padding-top: 6.5rem;
+  }
+
+  .section-title {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+  }
+
+  .contact__box {
+    padding: 0.5rem;
+  }
+
+  .contact__form_container {
+    padding-bottom: 6.5rem;
+  }
+}

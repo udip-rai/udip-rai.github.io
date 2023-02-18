@@ -1,0 +1,15 @@
+Downloaded Images
+https://betterprogramming.pub/why-mastering-vanilla-javascript-will-make-you-stand-out-as-a-developer-a99ae8c36d38
+https://www.pexels.com/photo/hand-holding-react-sticker-11035471/
+https://www.pexels.com/photo/a-man-looking-at-a-computer-screen-with-data-6963944/
+https://www.pexels.com/photo/person-writing-on-white-paper-3471423/
+https://www.thirdrocktechkno.com/blog/6-types-of-applications-you-can-build-with-node-js/
+
+Random name generator
+https://www.name-generator.org.uk/quick/
+
+Random photo generator
+https://randomuser.me/photos
+
+Random jobs generator
+https://www.randomlists.com/random-jobs

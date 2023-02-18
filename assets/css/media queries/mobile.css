@@ -1,0 +1,33 @@
+/*===== MOBILE =====*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: calc(50% - 0.5rem);
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: var(--smaller-font-size);
+  }
+
+  .portfolio__img {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .home__img img {
+    width: 330px;
+  }
+
+  .contact__form {
+    width: 450px;
+    justify-self: center;
+  }
+
+  .qualification__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
