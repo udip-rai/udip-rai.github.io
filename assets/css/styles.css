@@ -201,6 +201,7 @@
   font-size: 1.3rem;
   margin-bottom: var(--mb-2);
   color: var(--first-color-lighten);
+  transition: 0.3s ease;
 }
 
 .home__social-icon.facebook:hover {
@@ -222,7 +223,7 @@
   color: var(--first-color-lighten);
   padding: 0.75rem 1rem;
   border-radius: 0.25rem;
-  transition: 0.3s;
+  transition: 0.3s ease-in;
 }
 
 .button:hover {
