@@ -72,3 +72,8 @@
     background-position: 0 0;
   }
 }
+
+.remove__blur {
+  backface-visibility: hidden;
+  transform: translateZ(0) scale(1, 1);
+}

@@ -1,0 +1,61 @@
+.scrolltop__icon {
+  font-size: 2rem;
+  color: var(--first-color-lighten);
+}
+
+.home__social-icon {
+  width: max-content;
+  font-size: 1.3rem;
+  margin-bottom: var(--mb-2);
+  color: var(--first-color-lighten);
+  transition: 0.3s ease;
+  z-index: var(--z-tooltip);
+  backface-visibility: hidden;
+  transform: translateZ(0) scale(1, 1);
+}
+
+.home__social-icon .bx:hover {
+  transform: scale(1.3);
+  transition: 0.2s ease-in-out;
+}
+
+.home__social-icon .bxl-facebook-square:hover {
+  color: #517ed8;
+}
+
+.home__social-icon .bxl-instagram:hover {
+  color: #d62976;
+}
+
+.home__social-icon .bxl-twitter:hover {
+  color: #00acee;
+}
+
+.home__social-icon .bxl-github:hover {
+  color: #11b3a0;
+}
+
+.home__social-icon .bxl-gmail:hover {
+  color: #db2923;
+}
+
+.qualification__title-icon {
+  font-size: 1.5rem;
+  margin-right: var(--mb-1);
+}
+
+.services__icon,
+.contact__icon {
+  font-size: 3rem;
+  margin-bottom: var(--mb-2);
+  color: var(--first-color);
+}
+
+.project__icon {
+  font-size: 3.5rem;
+  margin-bottom: var(--mb-1);
+}
+
+.contact__icon {
+  font-size: 2rem;
+}
