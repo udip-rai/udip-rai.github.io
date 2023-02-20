@@ -188,7 +188,7 @@
 }
 
 .home__img img {
-  width: 240px;
+  width: 270px;
 }
 
 .home__social {
@@ -202,6 +202,7 @@
   margin-bottom: var(--mb-2);
   color: var(--first-color-lighten);
   transition: 0.3s ease;
+  z-index: var(--z-tooltip);
 }
 
 .home__social-icon.facebook:hover {

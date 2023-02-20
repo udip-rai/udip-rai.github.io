@@ -5,4 +5,4 @@
 ### Simply used HTML, CSS, JS
 
 Check out this site here:
-udip-rai.github.io
+https://udip-rai.github.io/

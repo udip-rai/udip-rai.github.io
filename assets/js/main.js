@@ -124,4 +124,4 @@ gsap.from('.home__greeting, .home__name, .home__profession', { opacity: 0, durat
 gsap.from('.home__button', { opacity: 0, duration: 2, delay: 0.1, y: -15, ease: 'expo.out', stagger: 0.4 });
 gsap.from('.nav__logo, .nav__toggle', { opacity: 0, duration: 2, delay: 1.5, y: 25, ease: 'expo.out', stagger: 0.4 });
 gsap.from('.nav__item', { opacity: 0, duration: 2, delay: 1.8, y: 25, ease: 'expo.out', stagger: 0.2 });
-gsap.from('.home__social-icon', { opacity: 0, duration: 2, delay: 2.3, y: 25, ease: 'expo.out', stagger: 0.2 });
+gsap.from('.home__social', { opacity: 0, duration: 2, delay: 2.3, y: 25, ease: 'expo.out', stagger: 0.2 });
